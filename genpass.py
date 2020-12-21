@@ -63,7 +63,7 @@ def gen_pass(length, use_spaces, wordlist):
     """
     phrase = ""
     last_word = False
-    for i in range (0, length -1):
+    for i in range (0, length):
         if i == length - 1:
             last_word = True
         index = secrets.randbelow(len(wordlist) - 1)
